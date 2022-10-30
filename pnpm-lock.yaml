@@ -5,6 +5,25 @@ importers:
   .:
     specifiers: {}
 
+  packages/components:
+    specifiers:
+      '@types/react': ^18.0.22
+      '@types/react-dom': ^18.0.7
+      '@vitejs/plugin-react': ^2.2.0
+      react: ^18.2.0
+      react-dom: ^18.2.0
+      typescript: ^4.6.4
+      vite: ^3.2.0
+    dependencies:
+      react: 18.2.0
+      react-dom: 18.2.0_react@18.2.0
+    devDependencies:
+      '@types/react': 18.0.24
+      '@types/react-dom': 18.0.8
+      '@vitejs/plugin-react': 2.2.0_vite@3.2.1
+      typescript: 4.8.4
+      vite: 3.2.1
+
   packages/docs:
     specifiers:
       '@babel/core': ^7.19.6
@@ -41,6 +60,44 @@ importers:
       '@vitejs/plugin-react': 2.2.0_vite@3.2.1
       babel-loader: 8.2.5_@babel+core@7.19.6
       storybook-i18n: 1.1.4_biqbaboplfbrettd7655fr4n2y
+      typescript: 4.8.4
+      vite: 3.2.1
+
+  packages/headless:
+    specifiers:
+      '@types/react': ^18.0.22
+      '@types/react-dom': ^18.0.7
+      '@vitejs/plugin-react': ^2.2.0
+      react: ^18.2.0
+      react-dom: ^18.2.0
+      typescript: ^4.6.4
+      vite: ^3.2.0
+    dependencies:
+      react: 18.2.0
+      react-dom: 18.2.0_react@18.2.0
+    devDependencies:
+      '@types/react': 18.0.24
+      '@types/react-dom': 18.0.8
+      '@vitejs/plugin-react': 2.2.0_vite@3.2.1
+      typescript: 4.8.4
+      vite: 3.2.1
+
+  packages/shared:
+    specifiers:
+      '@types/react': ^18.0.22
+      '@types/react-dom': ^18.0.7
+      '@vitejs/plugin-react': ^2.2.0
+      react: ^18.2.0
+      react-dom: ^18.2.0
+      typescript: ^4.6.4
+      vite: ^3.2.0
+    dependencies:
+      react: 18.2.0
+      react-dom: 18.2.0_react@18.2.0
+    devDependencies:
+      '@types/react': 18.0.24
+      '@types/react-dom': 18.0.8
+      '@vitejs/plugin-react': 2.2.0_vite@3.2.1
       typescript: 4.8.4
       vite: 3.2.1
 
